@@ -4116,43 +4116,6 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-3.25" y="3.9" size="1.27" layer="27" ratio="6">&gt;VALUE</text>
 <circle x="-1.625" y="-1.3" radius="0.325" width="0.127" layer="25"/>
 </package>
-<package name="GCT_USB4110-GF-A" urn="urn:adsk.eagle:footprint:21571555/1" library_version="15">
-<wire x1="-4.47" y1="1.07" x2="-4.47" y2="-6.28" width="0.1" layer="51"/>
-<wire x1="-4.47" y1="-6.28" x2="4.47" y2="-6.28" width="0.1" layer="51"/>
-<wire x1="4.47" y1="-6.28" x2="4.47" y2="1.07" width="0.1" layer="51"/>
-<wire x1="4.47" y1="1.07" x2="-4.47" y2="1.07" width="0.1" layer="51"/>
-<wire x1="-6.45" y1="1.9" x2="6.45" y2="1.9" width="0.05" layer="39"/>
-<wire x1="6.45" y1="1.9" x2="6.45" y2="-6.53" width="0.05" layer="39"/>
-<wire x1="6.45" y1="-6.53" x2="-6.45" y2="-6.53" width="0.05" layer="39"/>
-<wire x1="-6.45" y1="-6.53" x2="-6.45" y2="1.9" width="0.05" layer="39"/>
-<wire x1="-4.47" y1="-4.79" x2="-4.47" y2="-6.28" width="0.2" layer="21"/>
-<wire x1="-4.47" y1="-6.28" x2="4.47" y2="-6.28" width="0.2" layer="21"/>
-<wire x1="4.47" y1="-6.28" x2="4.47" y2="-4.79" width="0.2" layer="21"/>
-<wire x1="-4.47" y1="-0.86" x2="-4.47" y2="-2.07" width="0.2" layer="21"/>
-<wire x1="4.47" y1="-0.86" x2="4.47" y2="-2.07" width="0.2" layer="21"/>
-<circle x="-3.78" y="2.23" radius="0.1" width="0.2" layer="21"/>
-<circle x="-3.78" y="2.23" radius="0.1" width="0.2" layer="51"/>
-<text x="-4.6" y="2.5" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.6" y="-7.9" size="1.27" layer="27">&gt;VALUE</text>
-<smd name="A1/B12" x="-3.2" y="1.075" dx="0.6" dy="1.15" layer="1"/>
-<smd name="A4/B9" x="-2.4" y="1.075" dx="0.6" dy="1.15" layer="1"/>
-<smd name="B4/A9" x="2.4" y="1.075" dx="0.6" dy="1.15" layer="1"/>
-<smd name="B1/A12" x="3.2" y="1.075" dx="0.6" dy="1.15" layer="1"/>
-<smd name="B8" x="-1.75" y="1.075" dx="0.3" dy="1.15" layer="1"/>
-<smd name="B5" x="1.75" y="1.075" dx="0.3" dy="1.15" layer="1"/>
-<smd name="A5" x="-1.25" y="1.075" dx="0.3" dy="1.15" layer="1"/>
-<smd name="A8" x="1.25" y="1.075" dx="0.3" dy="1.15" layer="1"/>
-<smd name="B7" x="-0.75" y="1.075" dx="0.3" dy="1.15" layer="1"/>
-<smd name="B6" x="0.75" y="1.075" dx="0.3" dy="1.15" layer="1"/>
-<smd name="A6" x="-0.25" y="1.075" dx="0.3" dy="1.15" layer="1"/>
-<smd name="A7" x="0.25" y="1.075" dx="0.3" dy="1.15" layer="1"/>
-<smd name="S1" x="-5.11" y="0.5" dx="2.18" dy="2" layer="1"/>
-<smd name="S2" x="5.11" y="0.5" dx="2.18" dy="2" layer="1"/>
-<smd name="S3" x="-5.11" y="-3.43" dx="2.18" dy="2" layer="1"/>
-<smd name="S4" x="5.11" y="-3.43" dx="2.18" dy="2" layer="1"/>
-<hole x="-2.89" y="0" drill="0.65"/>
-<hole x="2.89" y="0" drill="0.65"/>
-</package>
 <package name="CUI_SJ-3524-SMT" urn="urn:adsk.eagle:footprint:21266234/2" library_version="11" library_locally_modified="yes">
 <wire x1="-3.5" y1="-3" x2="-3.5" y2="-2.5" width="0.127" layer="21"/>
 <wire x1="-3.5" y1="-2.5" x2="-3.5" y2="2.5" width="0.127" layer="21"/>
@@ -4323,6 +4286,28 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="4.15" y1="-4.15" x2="4.15" y2="4.15" width="0.1" layer="51"/>
 <wire x1="-5.8" y1="4.15" x2="4.15" y2="4.15" width="0.2" layer="21"/>
 <wire x1="-2.075" y1="-4.15" x2="4.15" y2="-4.15" width="0.2" layer="21"/>
+</package>
+<package name="CONN_10118192-0002LF_AMP" urn="urn:adsk.eagle:footprint:21264117/2" library_version="20">
+<smd name="VCC" x="-1.3" y="2.2039" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="DATA-" x="-0.65" y="2.2039" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="DATA+" x="0" y="2.2039" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="ID" x="0.65" y="2.2039" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="GND" x="1.3" y="2.2039" dx="0.4064" dy="1.3462" layer="1"/>
+<smd name="6" x="-3.1" y="2.0789" dx="2.1082" dy="1.6002" layer="1" rot="R90"/>
+<smd name="7" x="3.1" y="2.0789" dx="2.1082" dy="1.6002" layer="1" rot="R90"/>
+<smd name="8" x="-3.8" y="-0.4711" dx="1.8034" dy="1.905" layer="1" rot="R90"/>
+<smd name="9" x="3.8" y="-0.4711" dx="1.8034" dy="1.905" layer="1" rot="R90"/>
+<smd name="10" x="-1.2" y="-0.4711" dx="1.905" dy="1.905" layer="1" rot="R90"/>
+<smd name="11" x="1.2" y="-0.4711" dx="1.905" dy="1.905" layer="1" rot="R90"/>
+<wire x1="-4.1656" y1="-2.7432" x2="4.1656" y2="-2.7432" width="0.1524" layer="21"/>
+<wire x1="4.1656" y1="-2.7432" x2="4.1656" y2="-1.7018" width="0.1524" layer="21"/>
+<wire x1="-4.1656" y1="-1.7018" x2="-4.1656" y2="-2.7432" width="0.1524" layer="21"/>
+<wire x1="-4.0132" y1="-2.6162" x2="4.0132" y2="-2.6162" width="0.1524" layer="51"/>
+<wire x1="4.0132" y1="-2.6162" x2="4.0132" y2="2.6416" width="0.1524" layer="51"/>
+<wire x1="4.0132" y1="2.6416" x2="-4.0132" y2="2.6416" width="0.1524" layer="51"/>
+<wire x1="-4.0132" y1="2.6416" x2="-4.0132" y2="-2.6162" width="0.1524" layer="51"/>
+<text x="-3.2512" y="4.2418" size="1.27" layer="27" ratio="6" rot="SR0">&gt;Value</text>
+<text x="-3.2766" y="6.6548" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
 </package>
 </packages>
 <packages3d>
@@ -5526,15 +5511,15 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="SOP65P640X110-16N"/>
 </packageinstances>
 </package3d>
-<package3d name="GCT_USB4110-GF-A" urn="urn:adsk.eagle:package:21257276/4" type="model" library_version="15">
-<packageinstances>
-<packageinstance name="GCT_USB4110-GF-A"/>
-</packageinstances>
-</package3d>
 <package3d name="CAPAE830X1050N" urn="urn:adsk.eagle:package:21576661/2" type="model" library_version="20">
 <description>&lt;b&gt;SIZE F&lt;/b&gt;&lt;br&gt;</description>
 <packageinstances>
 <packageinstance name="CAPAE830X1050N"/>
+</packageinstances>
+</package3d>
+<package3d name="CONN_10118192-0002LF_AMP" urn="urn:adsk.eagle:package:21264118/3" type="model" library_version="20">
+<packageinstances>
+<packageinstance name="CONN_10118192-0002LF_AMP"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -5701,24 +5686,6 @@ Source: AVX .. aphvc.pdf</description>
 <pin name="AVDD" x="19.05" y="7.62" length="short" direction="out" rot="R180"/>
 <pin name="LINEVOUTR" x="19.05" y="10.16" length="short" direction="out" rot="R180"/>
 </symbol>
-<symbol name="USB4110-GF-A-1" urn="urn:adsk.eagle:symbol:21571553/1" library_version="15">
-<wire x1="-12.7" y1="10.16" x2="12.7" y2="10.16" width="0.254" layer="94"/>
-<wire x1="12.7" y1="10.16" x2="12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-12.7" x2="-12.7" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="-12.7" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
-<text x="-12.7" y="11.43" size="1.778" layer="95">&gt;NAME</text>
-<text x="-12.7" y="-15.24" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="CC1" x="-17.78" y="2.54" length="middle"/>
-<pin name="DP1" x="-17.78" y="0" length="middle"/>
-<pin name="DN1" x="-17.78" y="-2.54" length="middle"/>
-<pin name="SBU1" x="-17.78" y="-5.08" length="middle"/>
-<pin name="VBUS" x="17.78" y="7.62" length="middle" direction="pwr" rot="R180"/>
-<pin name="CC2" x="17.78" y="2.54" length="middle" rot="R180"/>
-<pin name="DP2" x="17.78" y="0" length="middle" rot="R180"/>
-<pin name="DN2" x="17.78" y="-2.54" length="middle" rot="R180"/>
-<pin name="SBU2" x="17.78" y="-5.08" length="middle" rot="R180"/>
-<pin name="GND" x="17.78" y="-10.16" length="middle" direction="pwr" rot="R180"/>
-</symbol>
 <symbol name="SJ-3524-SMT" urn="urn:adsk.eagle:symbol:21266233/1" library_version="10" library_locally_modified="yes">
 <wire x1="-5.969" y1="1.27" x2="-5.969" y2="-2.54" width="0.1524" layer="94"/>
 <wire x1="-5.969" y1="-2.54" x2="-4.699" y2="-2.54" width="0.1524" layer="94"/>
@@ -5786,6 +5753,33 @@ Source: AVX .. aphvc.pdf</description>
 <vertex x="6.858" y="-2.54"/>
 <vertex x="6.858" y="2.54"/>
 </polygon>
+</symbol>
+<symbol name="CONN_005P_000C_1" urn="urn:adsk.eagle:symbol:21264116/2" library_version="20">
+<pin name="VCC" x="0" y="0" visible="pad" length="middle" direction="pas"/>
+<pin name="DATA-" x="0" y="-2.54" visible="pad" length="middle" direction="pas"/>
+<pin name="DATA+" x="0" y="-5.08" visible="pad" length="middle" direction="pas"/>
+<pin name="ID" x="0" y="-7.62" visible="pad" length="middle" direction="pas"/>
+<pin name="GND" x="0" y="-10.16" visible="pad" length="middle" direction="pas"/>
+<wire x1="10.16" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="5.08" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="5.08" y2="-10.16" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="0.8382" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-1.7018" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-4.2418" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-6.7818" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="8.89" y2="-9.3218" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="0" x2="8.89" y2="-0.8382" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-2.54" x2="8.89" y2="-3.3782" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="8.89" y2="-5.9182" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="8.89" y2="-8.4582" width="0.1524" layer="94"/>
+<wire x1="10.16" y1="-10.16" x2="8.89" y2="-10.9982" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-12.7" x2="12.7" y2="-12.7" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="-12.7" x2="12.7" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="12.7" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<text x="4.1656" y="5.3086" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -8324,40 +8318,6 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="USB4110-GF-A" urn="urn:adsk.eagle:component:21571558/2" prefix="J" library_version="15">
-<description>CONN USB 2.0 TYPE-C R/A SMT</description>
-<gates>
-<gate name="G$1" symbol="USB4110-GF-A-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="GCT_USB4110-GF-A">
-<connects>
-<connect gate="G$1" pin="CC1" pad="A5"/>
-<connect gate="G$1" pin="CC2" pad="B5"/>
-<connect gate="G$1" pin="DN1" pad="A7"/>
-<connect gate="G$1" pin="DN2" pad="B7"/>
-<connect gate="G$1" pin="DP1" pad="A6"/>
-<connect gate="G$1" pin="DP2" pad="B6"/>
-<connect gate="G$1" pin="GND" pad="A1/B12 B1/A12 S1 S2 S3 S4"/>
-<connect gate="G$1" pin="SBU1" pad="A8"/>
-<connect gate="G$1" pin="SBU2" pad="B8"/>
-<connect gate="G$1" pin="VBUS" pad="A4/B9 B4/A9"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21257276/4"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="DESCRIPTION" value=" USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle; Through Hole "/>
-<attribute name="DIGI-KEY_PART_NUMBER" value=""/>
-<attribute name="MF" value="GCT"/>
-<attribute name="MP" value="USB4110-GF-A"/>
-<attribute name="PACKAGE" value="None"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="3.5MM_SJ-3524-SMT" urn="urn:adsk.eagle:component:21266236/3" prefix="J" library_version="11" library_locally_modified="yes">
 <description>&lt;b&gt;Audio Jack Connector&lt;/b&gt; 3.5 mm Low Profile Surface Mount Stereo Jack, 4 Pin Right-Angle</description>
 <gates>
@@ -8437,6 +8397,35 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 </device>
 </devices>
 </deviceset>
+<deviceset name="USB-MICRO-B_10118192-0002LF" urn="urn:adsk.eagle:component:21264119/3" prefix="J" library_version="20">
+<gates>
+<gate name="A" symbol="CONN_005P_000C_1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CONN_10118192-0002LF_AMP">
+<connects>
+<connect gate="A" pin="DATA+" pad="DATA+"/>
+<connect gate="A" pin="DATA-" pad="DATA-"/>
+<connect gate="A" pin="GND" pad="GND"/>
+<connect gate="A" pin="ID" pad="ID"/>
+<connect gate="A" pin="VCC" pad="VCC"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:21264118/3"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="BUILT_BY" value="EMA_Cory" constant="no"/>
+<attribute name="COPYRIGHT" value="Copyright (C) 2018 Accelerated Designs. All rights reserved" constant="no"/>
+<attribute name="DATASHEET" value="https://www.amphenol-icc.com/media/wysiwyg/files/drawing/10118192.pdf" constant="no"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="10118192-0002LF" constant="no"/>
+<attribute name="SOURCELIBRARY" value="Amphenol_ICC_2020-05-19" constant="no"/>
+<attribute name="VENDOR" value="Amphenol" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </libraries>
@@ -8499,7 +8488,6 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <part name="SUPPLY9" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="GND" device=""/>
 <part name="VDD7" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="VDD" device=""/>
 <part name="C13" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:21257170/3" value="1uF"/>
-<part name="J2" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="USB4110-GF-A" device="" package3d_urn="urn:adsk.eagle:package:21257276/4"/>
 <part name="J1" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="3.5MM_SJ-3524-SMT" device="" package3d_urn="urn:adsk.eagle:package:21266235/3"/>
 <part name="SUPPLY10" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="GND" device=""/>
 <part name="R8" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="R_CMF50110R00FHEB" device="" package3d_urn="urn:adsk.eagle:package:21266295/4" value="110R"/>
@@ -8509,6 +8497,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <part name="C1" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="EEE-1VA221UP" device="" package3d_urn="urn:adsk.eagle:package:21576661/2" value="220uF"/>
 <part name="C15" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="EEE-1VA221UP" device="" package3d_urn="urn:adsk.eagle:package:21576661/2" value="220uF"/>
 <part name="C5" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="EEE-1VA221UP" device="" package3d_urn="urn:adsk.eagle:package:21576661/2" value="220uF"/>
+<part name="J3" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="USB-MICRO-B_10118192-0002LF" device="" package3d_urn="urn:adsk.eagle:package:21264118/3"/>
 </parts>
 <sheets>
 <sheet>
@@ -8661,10 +8650,6 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <attribute name="NAME" x="101.981" y="38.481" size="1.778" layer="95"/>
 <attribute name="VALUE" x="101.981" y="36.449" size="1.778" layer="96" rot="MR0" align="top-right"/>
 </instance>
-<instance part="J2" gate="G$1" x="-157.48" y="127" smashed="yes">
-<attribute name="NAME" x="-170.18" y="138.43" size="1.778" layer="95"/>
-<attribute name="VALUE" x="-170.18" y="111.76" size="1.778" layer="96"/>
-</instance>
 <instance part="J1" gate="G$1" x="185.42" y="104.14" smashed="yes" rot="MR0">
 <attribute name="NAME" x="193.056990625" y="112.413809375" size="2.198909375" layer="95" rot="MR0"/>
 <attribute name="VALUE" x="193.071859375" y="96.47936875" size="2.20481875" layer="96" rot="MR0"/>
@@ -8700,6 +8685,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <attribute name="NAME" x="-82.55" y="118.11" size="1.778" layer="95" rot="R270" align="center-left"/>
 <attribute name="VALUE" x="-85.09" y="118.11" size="1.778" layer="96" rot="R270" align="center-left"/>
 </instance>
+<instance part="J3" gate="A" x="-147.32" y="134.62" smashed="yes" rot="MR0">
+<attribute name="NAME" x="-151.4856" y="139.9286" size="2.0828" layer="95" ratio="6" rot="SMR0"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8730,12 +8718,17 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="-68.58" y1="116.84" x2="-68.58" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-68.58" y="106.68"/>
-<pinref part="J2" gate="G$1" pin="GND"/>
-<wire x1="-139.7" y1="116.84" x2="-132.08" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="-132.08" y1="116.84" x2="-132.08" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="C5" gate="G$1" pin="-"/>
 <wire x1="-88.9" y1="114.3" x2="-88.9" y2="106.68" width="0.1524" layer="91"/>
 <junction x="-88.9" y="106.68"/>
+<pinref part="J3" gate="A" pin="GND"/>
+<wire x1="-147.32" y1="124.46" x2="-142.24" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="124.46" x2="-132.08" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-132.08" y1="124.46" x2="-132.08" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="J3" gate="A" pin="ID"/>
+<wire x1="-147.32" y1="127" x2="-142.24" y2="127" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="127" x2="-142.24" y2="124.46" width="0.1524" layer="91"/>
+<junction x="-142.24" y="124.46"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
@@ -8954,9 +8947,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <pinref part="FB2" gate="G$0" pin="1"/>
 <wire x1="-111.76" y1="127" x2="-111.76" y2="134.62" width="0.1524" layer="91"/>
 <junction x="-111.76" y="134.62"/>
-<pinref part="J2" gate="G$1" pin="VBUS"/>
-<wire x1="-139.7" y1="134.62" x2="-124.46" y2="134.62" width="0.1524" layer="91"/>
+<wire x1="-147.32" y1="134.62" x2="-124.46" y2="134.62" width="0.1524" layer="91"/>
 <junction x="-124.46" y="134.62"/>
+<pinref part="J3" gate="A" pin="VCC"/>
 </segment>
 </net>
 <net name="N$3" class="1">
@@ -9128,12 +9121,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <junction x="12.7" y="30.48"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="DP2"/>
-<wire x1="-139.7" y1="127" x2="-132.08" y2="127" width="0.1524" layer="91"/>
-<label x="-137.16" y="127" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="DP1"/>
-<wire x1="-175.26" y1="127" x2="-139.7" y2="127" width="0.1524" layer="91"/>
-<junction x="-139.7" y="127"/>
+<pinref part="J3" gate="A" pin="DATA+"/>
+<wire x1="-147.32" y1="129.54" x2="-137.16" y2="129.54" width="0.1524" layer="91"/>
+<label x="-139.7" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D-" class="1">
@@ -9143,12 +9133,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <label x="5.08" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J2" gate="G$1" pin="DN2"/>
-<wire x1="-139.7" y1="124.46" x2="-132.08" y2="124.46" width="0.1524" layer="91"/>
-<label x="-137.16" y="124.46" size="1.778" layer="95"/>
-<pinref part="J2" gate="G$1" pin="DN1"/>
-<wire x1="-175.26" y1="124.46" x2="-139.7" y2="124.46" width="0.1524" layer="91"/>
-<junction x="-139.7" y="124.46"/>
+<pinref part="J3" gate="A" pin="DATA-"/>
+<wire x1="-147.32" y1="132.08" x2="-137.16" y2="132.08" width="0.1524" layer="91"/>
+<label x="-139.7" y="132.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$14" class="1">
