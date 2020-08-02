@@ -4080,16 +4080,18 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-0.4" y="0.3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-0.4" y="-1.6" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="DIOC200X125X110" urn="urn:adsk.eagle:footprint:21256890/1" library_version="8">
-<wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.05" layer="51"/>
-<wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.05" layer="51"/>
-<wire x1="1" y1="0.625" x2="-1" y2="0.625" width="0.05" layer="51"/>
-<wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.05" layer="51"/>
-<rectangle x1="-1.002309375" y1="-0.10023125" x2="-0.8" y2="0.1" layer="51"/>
-<text x="-1.00305" y="1.00305" size="0.254778125" layer="25">&gt;NAME</text>
-<text x="-1.00193125" y="-1.252409375" size="0.254490625" layer="27">&gt;VALUE</text>
-<smd name="-" x="-1.05" y="0" dx="1.2" dy="1.2" layer="1"/>
-<smd name="+" x="1.05" y="0" dx="1.2" dy="1.2" layer="1"/>
+<package name="LED_2.54MM_0.5MM" library_version="20" library_locally_modified="yes">
+<pad name="ANODE" x="0" y="0" drill="0.5" diameter="1.27"/>
+<pad name="CATHODE" x="2.54" y="0" drill="0.5" diameter="1.27"/>
+<wire x1="1" y1="0.5" x2="1" y2="-0.5" width="0.1524" layer="21"/>
+<wire x1="1" y1="-0.5" x2="1.5" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0" x2="1" y2="0.5" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0.5" x2="1.5" y2="0" width="0.1524" layer="21"/>
+<wire x1="1.5" y1="0" x2="1.5" y2="-0.5" width="0.1524" layer="21"/>
+<wire x1="-1.3" y1="1.1" x2="3.8" y2="1.1" width="0.1524" layer="39"/>
+<wire x1="3.8" y1="1.1" x2="3.8" y2="-1.1" width="0.1524" layer="39"/>
+<wire x1="3.8" y1="-1.1" x2="-1.3" y2="-1.1" width="0.1524" layer="39"/>
+<wire x1="-1.3" y1="-1.1" x2="-1.3" y2="1.1" width="0.1524" layer="39"/>
 </package>
 <package name="WM8524CGEDT/R_16-TSSOP_M" urn="urn:adsk.eagle:footprint:21253956/1" library_version="8" library_locally_modified="yes">
 <smd name="1" x="-2.275" y="-2.7" dx="1" dy="0.3" layer="1" rot="R90"/>
@@ -5484,11 +5486,6 @@ Source: AVX .. aphvc.pdf</description>
 <packageinstance name="C01005"/>
 </packageinstances>
 </package3d>
-<package3d name="DIOC200X125X110" urn="urn:adsk.eagle:package:21257102/3" type="model" library_version="18">
-<packageinstances>
-<packageinstance name="DIOC200X125X110"/>
-</packageinstances>
-</package3d>
 <package3d name="WM8524CGEDT/R_16-TSSOP_M" urn="urn:adsk.eagle:package:21253964/2" type="model" library_version="8" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="WM8524CGEDT/R_16-TSSOP_M"/>
@@ -5639,7 +5636,7 @@ Source: AVX .. aphvc.pdf</description>
 <pin name="1" x="0" y="2.54" visible="off" length="short" direction="pas" swaplevel="1" rot="R270"/>
 <pin name="2" x="0" y="-5.08" visible="off" length="short" direction="pas" swaplevel="1" rot="R90"/>
 </symbol>
-<symbol name="LTST-C171TBKT" urn="urn:adsk.eagle:symbol:21256896/1" library_version="8">
+<symbol name="LED" library_version="20" library_locally_modified="yes">
 <wire x1="2.54" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="2.54" y2="1.27" width="0.254" layer="94"/>
 <wire x1="0" y1="-1.27" x2="0" y2="0" width="0.254" layer="94"/>
@@ -8232,29 +8229,18 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="LED_BLUE_LTST-C171TBKT" urn="urn:adsk.eagle:component:21257282/3" prefix="D" library_version="18">
-<description>Green 2 x 1.25 x 1.1 mm 130° Water Clear 35 mcd 2 V Surface Mount LED</description>
+<deviceset name="LED" prefix="LED" library_version="20" library_locally_modified="yes">
 <gates>
-<gate name="G$1" symbol="LTST-C171TBKT" x="0" y="0"/>
+<gate name="G$1" symbol="LED" x="-1.524" y="0"/>
 </gates>
 <devices>
-<device name="" package="DIOC200X125X110">
+<device name="" package="LED_2.54MM_0.5MM">
 <connects>
-<connect gate="G$1" pin="+" pad="+"/>
-<connect gate="G$1" pin="-" pad="-"/>
+<connect gate="G$1" pin="+" pad="ANODE"/>
+<connect gate="G$1" pin="-" pad="CATHODE"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:21257102/3"/>
-</package3dinstances>
 <technologies>
-<technology name="">
-<attribute name="AVAILABILITY" value="Unavailable"/>
-<attribute name="DESCRIPTION" value=" Blue 470nm LED Indication - Discrete 3.3V 0805 (2012 Metric) "/>
-<attribute name="MF" value="Lite-On Inc."/>
-<attribute name="MP" value="LTST-C171TBKT"/>
-<attribute name="PACKAGE" value="0805 Lite-On"/>
-<attribute name="PRICE" value="None"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8457,7 +8443,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <part name="R7" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:21257097/3" value="22R"/>
 <part name="C3" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:21257170/3" value="1uF"/>
 <part name="FB2" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="L_MURATA_BLM31PG601SN1L" device="MURATA_BLM31PG601SN1L_0_2" package3d_urn="urn:adsk.eagle:package:21264541/3"/>
-<part name="LED1" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="LED_BLUE_LTST-C171TBKT" device="" package3d_urn="urn:adsk.eagle:package:21257102/3" value="LED_BLUE_LTST-C171TBKT"/>
+<part name="LED1" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="LED" device="" value="LED"/>
 <part name="R5" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="R-US_" device="R1206" package3d_urn="urn:adsk.eagle:package:21257097/3" value="560R"/>
 <part name="C7" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:21257170/3" value="1uF"/>
 <part name="C8" library="GrubDAC" library_urn="urn:adsk.eagle:library:21250102" deviceset="C-US" device="C0805" package3d_urn="urn:adsk.eagle:package:21257170/3" value=".01uF"/>
@@ -8700,7 +8686,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <wire x1="-58.42" y1="132.08" x2="-58.42" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-58.42" y1="106.68" x2="-58.42" y2="101.6" width="0.1524" layer="91"/>
 <junction x="-58.42" y="106.68"/>
-<wire x1="-132.08" y1="106.68" x2="-124.46" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="106.68" x2="-124.46" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="106.68" x2="-111.76" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-111.76" y1="106.68" x2="-88.9" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="-88.9" y1="106.68" x2="-78.74" y2="106.68" width="0.1524" layer="91"/>
@@ -8723,8 +8709,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1909355.pdf?_ga=1.18585340
 <junction x="-88.9" y="106.68"/>
 <pinref part="J3" gate="A" pin="GND"/>
 <wire x1="-147.32" y1="124.46" x2="-142.24" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-142.24" y1="124.46" x2="-132.08" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-132.08" y1="124.46" x2="-132.08" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="124.46" x2="-142.24" y2="106.68" width="0.1524" layer="91"/>
 <pinref part="J3" gate="A" pin="ID"/>
 <wire x1="-147.32" y1="127" x2="-142.24" y2="127" width="0.1524" layer="91"/>
 <wire x1="-142.24" y1="127" x2="-142.24" y2="124.46" width="0.1524" layer="91"/>
